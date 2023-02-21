@@ -30,7 +30,7 @@ const sortableCSS = css<ColumnSortableProps>`
 		i,
 		svg {
 			transform: 'translate3d(0, 0, 0)';
-			${({ sortActive }) => (sortActive ? 'opacity: 1' : 'opacity: 0')};
+			${({ sortActive }) => (sortActive ? 'opacity: 1' : 'opacity: 0.7')};
 			color: inherit;
 			font-size: 18px;
 			height: 18px;
